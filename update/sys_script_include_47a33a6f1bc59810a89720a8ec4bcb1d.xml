@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_datasilosmtn.MTN_CreateDataSilos</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>MTN_CreateDataSilos</name>
+        <script><![CDATA[function MTN_CreateDataSilos()
+{
+	
+	
+	var testdata = new x_snc_datasilos.DataSilosTestDataAPI('');
+	
+	var Debug = x_snc_devtools.Debug;
+	Debug('MTN_CreateDataSilos');
+	
+	// Silos
+	//testdata.CreateSilo('SILO_ALPHA',['TEAM_ALPHA_MEMBER'],['TEAM_ALPHA_FULFILLER'],['TEAM_ALPHA_SUPERVISOR']);
+	//testdata.CreateSilo('SILO_BETA',['TEAM_BETA_MEMBER'],['TEAM_BETA_FULFILLER'],['TEAM_BETA_SUPERVISOR']);
+	//testdata.CreateSilo('SILO_GAMMA',['TEAM_GAMMA_MEMBER'],['TEAM_GAMMA_FULFILLER'],['TEAM_GAMMA_SUPERVISOR']);
+	
+}
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-03 10:30:37</sys_created_on>
+        <sys_id>47a33a6f1bc59810a89720a8ec4bcb1d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>MTN_CreateDataSilos</sys_name>
+        <sys_package display_value="DataSilosMTN" source="x_snc_datasilosmtn">6e33362f1bc59810a89720a8ec4bcb79</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="DataSilosMTN">6e33362f1bc59810a89720a8ec4bcb79</sys_scope>
+        <sys_update_name>sys_script_include_47a33a6f1bc59810a89720a8ec4bcb1d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-03 10:45:05</sys_updated_on>
+    </sys_script_include>
+</record_update>
