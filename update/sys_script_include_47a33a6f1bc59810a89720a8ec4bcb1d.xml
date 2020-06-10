@@ -9,8 +9,6 @@
         <name>MTN_CreateDataSilos</name>
         <script><![CDATA[function MTN_CreateDataSilos()
 {
-	
-	
 	var testdata = new x_snc_datasilos.DataSilosTestDataAPI('');
 	
 	var Debug = x_snc_devtools.Debug;
@@ -48,7 +46,6 @@
 			'Linux.MTN Liberia',
 			'MIM.MTN Liberia Group',	
 			'Network Operation Center.MTN Liberia',
-			'Service Management.MTN Liberia',
 			'TCG.MTN Liberia',
 			'Unix.MTN Liberia',
 			'VAS.MTN Liberia',
@@ -59,7 +56,48 @@
 		// Supervisors
 		[
 			'SD.MTN Liberia Group',
-			'Service Management.MTN Liberia'
+			'Service Management.MTN Liberia',
+			'SD.MTN Group',
+			'Service Management.MTN Group Super Users'
+		]);
+	
+
+/*
+Violet: what are they?
+RAFM.MTN Liberia
+Cybersecurity Monitoring.MTN Liberia
+*/
+	
+
+	testdata.CreateSilo(
+		'MTN Global Connect (OpCo)',
+		// Members
+		[
+			'YelloConnect Billing Change Implementation.MTN GlobalConnect',
+			'YelloConnect Messaging Change Implementation.MTN GlobalConnect',
+			'YelloConnect Roaming VAS Change Implementation.MTN GlobalConnect',
+			'YelloConnect Roaming VAS Provisioning Group',
+			'YelloConnect Signaling Change Implementation.MTN GlobalConnect',
+			'YelloConnect Signaling Provisioning Group',
+			'YelloConnect SMS Provisioning Group',
+			'YelloConnect Voice Change Implementation.MTN GlobalConnect',
+			'YelloConnect Voice Change Implementation.MTN GlobalConnect',
+			'YelloConnect Voice Provisioning Group',
+			'Connectivity Services Change Implementation.MTN GlobalConnect',
+			'IT Systems Change Implementation.MTN GlobalConnect'
+		],
+		// Fulfillers
+		[],
+		// Supervisors
+		[
+			'SD.MTN Group',
+			'Service Management.MTN Group Super Users',
+			'SLA.MTN GlobalConnect',
+			'YelloConnect Billing Service Desk.MTN GlobalConnect',
+			'YelloConnect Roaming Hub Service Desk.MTN GlobalConnect',
+			'YelloConnect Service Desk.MTN GlobalConnect',
+			'YelloConnect SIG Hub Service Desk.MTN GlobalConnect',
+			'YelloConnect SMS Hub Service Desk.MTN GlobalConnect'
 		]);
 	
 	
@@ -70,13 +108,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-03 10:30:37</sys_created_on>
         <sys_id>47a33a6f1bc59810a89720a8ec4bcb1d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>MTN_CreateDataSilos</sys_name>
         <sys_package display_value="DataSilosMTN" source="x_snc_datasilosmtn">6e33362f1bc59810a89720a8ec4bcb79</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="DataSilosMTN">6e33362f1bc59810a89720a8ec4bcb79</sys_scope>
         <sys_update_name>sys_script_include_47a33a6f1bc59810a89720a8ec4bcb1d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-03 10:59:23</sys_updated_on>
+        <sys_updated_on>2020-06-10 09:31:38</sys_updated_on>
     </sys_script_include>
 </record_update>
