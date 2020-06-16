@@ -9,13 +9,13 @@
         <name>MTN_CreateDataSilos</name>
         <script><![CDATA[function MTN_CreateDataSilos()
 {
-	var testdata = new x_snc_datasilos.DataSilosTestDataAPI('');
+	var data = new x_snc_datasilos.DataSilosTestDataAPI('');
 	
-	var Debug = x_snc_devtools.Debug;
-	Debug('MTN_CreateDataSilos');
+	var Log = x_snc_devtools.Log;
+	Log('MTN_CreateDataSilos');
 	
-	// Silos
-	testdata.CreateSilo(
+
+	data.CreateSilo(
 		'MTN Group IT',
 		// Members
 		[
@@ -29,8 +29,174 @@
 			'SD.MTN Group',
 			'Service Management.MTN Group Super Users'
 		]);
+	
+	
+	data.CreateSilo(
+		'MTN Group IS',
+		// Members
+		[
+			'End User Support.MTN Group IS.14th Avenue',
+			'Messaging and Collaboration.MTN Group IS',
+			'WINTEL.MTN Group IS',	
+			'Workplace Services.MTN Group ISSystem Management.MTN Group IS',
+			'Virtualization.MTN Group IS',
+			'Print Services.MTN Group IS',
+			'MIM.MTN Group IS',
+			'Linux Services.MTN Group IS',
+			'IP Network Connectivity.MTN Group IS',
+			'Backup and Recovery.MTN Group IS',
+			'Infrastructure Hardware.MTN Group IS',
+			'Storage and SAN.MTN Group IS'
+		],
+		// Fulfillers
+		[],
+		// Supervisors
+		[
+			'SD.MTN Group',
+			'Service Management.MTN Group IS',
+			'Service Management.MTN Group Super Users'
+		]);
+	
 
-	testdata.CreateSilo(
+	data.CreateSilo(
+		'MTN Group Boost',
+		// Members
+		[
+			'Database Services.MTN Group BOOST',
+			'Cloud Demand Management.MTN Group BOOST',
+			'EBS Infrastructure.MTN Group BOOST',
+			'End User Support.MTN Group BOOST.Gallo Manor', // Gallo Manor?
+			'ARCS MTN Group BOOST',
+			'Business Intelligence.MTN Group BOOST',
+			'Cybersecurity Monitoring.MTN Group BOOST',
+			'EDMCS MTN Group BOOST',
+			'Enterprise Business Suite.MTN Group BOOST',
+			'EPBCS MTN Group BOOST',
+			'EPRCS MTN Group BOOST',
+			'FCCS MTN Group BOOST',
+			'Functional Support.MTN Group BOOST',
+			'Infrastructure Hardware.MTN Group BOOST',
+			'IP Network Connectivity.MTN Group BOOST',
+			'MIM.MTN Group BOOST',
+			'PBCS MTN Group BOOST',
+			'PCMCS MTN Group BOOST',
+			'SOA.MTN Group BOOST',
+			'TRCS MTN Group BOOST',
+			'Cybersecurity Monitoring.MTN Boost!' // why !
+			
+		],
+		// Fulfillers
+		[],
+		// Supervisors
+		[
+			'SD.MTN Group',
+			'Service Management.MTN Group Boost',
+			'Service Management.MTN Group Super Users'
+		]);
+
+	
+
+	data.CreateSilo(
+		'MTN Group GTES',
+		// Members
+		[
+			'GTES System Tools.MTN Group GTES',
+			'Application Hosting Services.MTN Group GTES',
+			'Azure Cloud.MTN Group GTES',
+			'Certificate Services.MTN Group GTES',
+			'Change Assessors.MTN Group GTES',
+			'Change Managers.MTN Group GTES',
+			'Cloud IVR.MTN Group GTES',	
+			'Cloud Market Place.MTN Group GTES',
+			'eCAB Approval.MTN Group GTES',
+			'Enterprise Tools.MTN Group GTES',
+			'Hosting Services.MTN Group GTES',
+			'Infrastructure Hardware.MTN Group GTES',
+			'IOT.MTN Group GTES',
+			'IP Management.MTN Group GTES',
+			'IP Network Connectivity.MTN Group GTES'
+			
+		],
+		// Fulfillers
+		[],
+		// Supervisors
+		[
+			'GTES SD.MTN Group',
+			'Service Management.MTN Group GTES',
+			'Service Managers.MTN Group GTES',
+			'SD.MTN Group',
+			'Service Management.MTN Group Super Users'
+			
+		]);
+
+
+	data.CreateSilo(
+		'MTN Group GIS',
+		// Members
+		[
+			'Security Architecture & Technical Excellence.MTN Group GIS',
+			'Cybersecurity Monitoring.MTN Group Dubai',
+			'Cybersecurity Monitoring.MTN Afghanistan',	
+			'Cybersecurity Monitoring.MTN Benin',
+			'Cybersecurity Monitoring.MTN Boost!',
+			'Cybersecurity Monitoring.MTN Botswana',
+			'Cybersecurity Monitoring.MTN Cameroon',
+			'Cybersecurity Monitoring.MTN Congo Brazzaville',
+			'Cybersecurity Monitoring.MTN Cote d\'Ivoire',
+			'Cybersecurity Monitoring.MTN Ghana',
+			'Cybersecurity Monitoring.MTN Kenya',
+			'Cybersecurity Monitoring.MTN Liberia',
+			'Cybersecurity Monitoring.MTN MASCOM',
+			'Cybersecurity Monitoring.MTN Namibia',	
+			'Cybersecurity Monitoring.MTN Nigeria',
+			'Cybersecurity Monitoring.MTN Rwanda',
+			'Cybersecurity Monitoring.MTN South Africa',
+			'Cybersecurity Monitoring.MTN Swaziland',
+			'Cybersecurity Monitoring.MTN Uganda',
+			'Cybersecurity Monitoring.MTN Yemen',
+			'Cybersecurity Monitoring.MTN Zambia'
+		],
+		// Fulfillers
+		[],
+		// Supervisors
+		[
+			'SD.MTN Group',
+			'Service Management.MTN Group GIS',
+			'Service Management.MTN Group Super Users',
+			'Cybersecurity Monitoring.MTN Group GIS'
+		]);
+
+	
+
+	data.CreateSilo(
+		'MTN Group RAFM',
+		// Members
+		[
+			'Line managers. MTN Group RAFM',
+			'Dashboard Viewers.MTN Group RAFM',
+			'RAFM.MTN Yemen',
+			'RAFM.MTN Benin',
+			'RAFM.MTN Congo',
+			'RAFM.MTN Guinea-Bissau',
+			'RAFM.MTN Liberia',
+			'RAFM.MTN South Sudan',
+			'RAFM.MTN Swaziland',
+			'RAFM.MTN Zambia'
+		],
+		// Fulfillers
+		[],
+		// Supervisors
+		[
+			'SD.MTN Group',
+			'Service Management.MTN Group RAFM',
+			'Service Management.MTN Group Super Users',
+			'Fraud Management System.MTN Group RAFM',
+			'Revenue Assurance.MTN Group RAFM'
+		]);
+
+	
+
+	data.CreateSilo(
 		'MTN Liberia',
 		// Members
 		[
@@ -49,7 +215,8 @@
 			'TCG.MTN Liberia',
 			'Unix.MTN Liberia',
 			'VAS.MTN Liberia',
-			'Wintel.MTN Liberia'
+			'Wintel.MTN Liberia',
+			'RAFM.MTN Liberia'
 		],
 		// Fulfillers
 		[],
@@ -62,17 +229,17 @@
 		]);
 	
 
-/*
-Violet: what are they?
-RAFM.MTN Liberia
-Cybersecurity Monitoring.MTN Liberia
-*/
-	
 
-	testdata.CreateSilo(
-		'MTN Global Connect (OpCo)',
+
+	data.CreateSilo(
+		'MTN Global Connect',
 		// Members
 		[
+			'YelloConnect Billing Service Desk.MTN GlobalConnect',
+			'YelloConnect Roaming Hub Service Desk.MTN GlobalConnect',
+			'YelloConnect Service Desk.MTN GlobalConnect',
+			'YelloConnect SIG Hub Service Desk.MTN GlobalConnect',
+			'YelloConnect SMS Hub Service Desk.MTN GlobalConnect',
 			'YelloConnect Billing Change Implementation.MTN GlobalConnect',
 			'YelloConnect Messaging Change Implementation.MTN GlobalConnect',
 			'YelloConnect Roaming VAS Change Implementation.MTN GlobalConnect',
@@ -81,10 +248,10 @@ Cybersecurity Monitoring.MTN Liberia
 			'YelloConnect Signaling Provisioning Group',
 			'YelloConnect SMS Provisioning Group',
 			'YelloConnect Voice Change Implementation.MTN GlobalConnect',
-			'YelloConnect Voice Change Implementation.MTN GlobalConnect',
 			'YelloConnect Voice Provisioning Group',
 			'Connectivity Services Change Implementation.MTN GlobalConnect',
-			'IT Systems Change Implementation.MTN GlobalConnect'
+			'IT Systems Change Implementation.MTN GlobalConnect',
+			'Cybersecurity Monitoring.MTN Group Dubai'
 		],
 		// Fulfillers
 		[],
@@ -108,13 +275,13 @@ Cybersecurity Monitoring.MTN Liberia
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-03 10:30:37</sys_created_on>
         <sys_id>47a33a6f1bc59810a89720a8ec4bcb1d</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>MTN_CreateDataSilos</sys_name>
         <sys_package display_value="DataSilosMTN" source="x_snc_datasilosmtn">6e33362f1bc59810a89720a8ec4bcb79</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="DataSilosMTN">6e33362f1bc59810a89720a8ec4bcb79</sys_scope>
         <sys_update_name>sys_script_include_47a33a6f1bc59810a89720a8ec4bcb1d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-10 09:31:38</sys_updated_on>
+        <sys_updated_on>2020-06-16 12:36:57</sys_updated_on>
     </sys_script_include>
 </record_update>
