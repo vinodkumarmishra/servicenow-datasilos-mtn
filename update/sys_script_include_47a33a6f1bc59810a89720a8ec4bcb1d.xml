@@ -236,21 +236,6 @@
 		'MTN Global Connect',
 		// Members
 		[
-			'YelloConnect Billing Service Desk.MTN GlobalConnect',
-			'YelloConnect Roaming Hub Service Desk.MTN GlobalConnect',
-			'YelloConnect Service Desk.MTN GlobalConnect',
-			'YelloConnect SIG Hub Service Desk.MTN GlobalConnect',
-			'YelloConnect SMS Hub Service Desk.MTN GlobalConnect',
-			'YelloConnect Billing Change Implementation.MTN GlobalConnect',
-			'YelloConnect Messaging Change Implementation.MTN GlobalConnect',
-			'YelloConnect Roaming VAS Change Implementation.MTN GlobalConnect',
-			'YelloConnect Roaming VAS Provisioning Group',
-			'YelloConnect Signaling Change Implementation.MTN GlobalConnect',
-			'YelloConnect Signaling Provisioning Group',
-			'YelloConnect SMS Provisioning Group',
-			'YelloConnect Voice Change Implementation.MTN GlobalConnect',
-			'YelloConnect Voice Provisioning Group',
-			'Connectivity Services Change Implementation.MTN GlobalConnect',
 			'IT Systems Change Implementation.MTN GlobalConnect',
 			'Cybersecurity Monitoring.MTN Group Dubai'
 		],
@@ -260,12 +245,7 @@
 		[
 			'SD.MTN Group',
 			'Service Management.MTN Group Super Users',
-			'SLA.MTN GlobalConnect',
-			'YelloConnect Billing Service Desk.MTN GlobalConnect',
-			'YelloConnect Roaming Hub Service Desk.MTN GlobalConnect',
-			'YelloConnect Service Desk.MTN GlobalConnect',
-			'YelloConnect SIG Hub Service Desk.MTN GlobalConnect',
-			'YelloConnect SMS Hub Service Desk.MTN GlobalConnect'
+			'SLA.MTN GlobalConnect'
 		]);
 
 	data.CreateSilo(
@@ -393,13 +373,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-03 10:30:37</sys_created_on>
         <sys_id>47a33a6f1bc59810a89720a8ec4bcb1d</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>MTN_CreateDataSilos</sys_name>
         <sys_package display_value="DataSilosMTN WORK IN PROGRESS" source="x_snc_datasilosmtn">6e33362f1bc59810a89720a8ec4bcb79</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="DataSilosMTN WORK IN PROGRESS">6e33362f1bc59810a89720a8ec4bcb79</sys_scope>
         <sys_update_name>sys_script_include_47a33a6f1bc59810a89720a8ec4bcb1d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-17 14:53:00</sys_updated_on>
+        <sys_updated_on>2020-06-22 10:14:42</sys_updated_on>
     </sys_script_include>
 </record_update>
