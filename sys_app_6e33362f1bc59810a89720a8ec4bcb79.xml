@@ -10,7 +10,7 @@
         <license_model>none</license_model>
         <logo/>
         <menu/>
-        <name>DataSilosMTN WORK IN PROGRESS</name>
+        <name>DataSilosMTN</name>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
@@ -25,14 +25,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-03 10:14:11</sys_created_on>
         <sys_id>6e33362f1bc59810a89720a8ec4bcb79</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-19 19:53:39</sys_updated_on>
+        <sys_updated_on>2020-06-23 18:05:21</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>0.0.1</version>
+        <version>0.0.8</version>
     </sys_app>
 </record_update>
