@@ -19,7 +19,6 @@
 		'MTN Group IT',
 		// Members
 		[
-			'CAB Approval.MTN Group',
 			'ServiceNow COE.MTN Group'
 		],
 		// Fulfillers
@@ -27,7 +26,10 @@
 		// Supervisors
 		[
 			'SD.MTN Group',
-			'Service Management.MTN Group Super Users'
+			'Service Management.MTN Group Super Users',
+			'Change Assessors.MTN Group IS',
+			'CAB Approval.MTN Group',
+			'eCAB Approval.MTN Group'
 		]);
 	
 	
@@ -55,7 +57,10 @@
 		[
 			'SD.MTN Group',
 			'Service Management.MTN Group IS',
-			'Service Management.MTN Group Super Users'
+			'Service Management.MTN Group Super Users',
+			'Change Assessors.MTN Group IS',
+			'CAB Approval.MTN Group',
+			'eCAB Approval.MTN Group'
 		]);
 	
 
@@ -92,7 +97,10 @@
 		[
 			'SD.MTN Group',
 			'Service Management.MTN Group Boost',
-			'Service Management.MTN Group Super Users'
+			'Service Management.MTN Group Super Users',
+			'Change Assessors.MTN Group Boost',
+			'CAB Approval.MTN Group Boost',
+			'eCAB Approval.MTN Group Boost'
 		]);
 
 	
@@ -105,18 +113,15 @@
 			'Application Hosting Services.MTN Group GTES',
 			'Azure Cloud.MTN Group GTES',
 			'Certificate Services.MTN Group GTES',
-			'Change Assessors.MTN Group GTES',
 			'Change Managers.MTN Group GTES',
 			'Cloud IVR.MTN Group GTES',	
 			'Cloud Market Place.MTN Group GTES',
-			'eCAB Approval.MTN Group GTES',
 			'Enterprise Tools.MTN Group GTES',
 			'Hosting Services.MTN Group GTES',
 			'Infrastructure Hardware.MTN Group GTES',
 			'IOT.MTN Group GTES',
 			'IP Management.MTN Group GTES',
 			'IP Network Connectivity.MTN Group GTES'
-			
 		],
 		// Fulfillers
 		[],
@@ -126,7 +131,10 @@
 			'Service Management.MTN Group GTES',
 			'Service Managers.MTN Group GTES',
 			'SD.MTN Group',
-			'Service Management.MTN Group Super Users'
+			'Service Management.MTN Group Super Users',
+			'Change Assessors.MTN Group GTES',
+			'CAB Approval.MTN Group GTES',
+			'eCAB Approval.MTN Group GTES'			
 			
 		]);
 
@@ -164,7 +172,10 @@
 			'SD.MTN Group',
 			'Service Management.MTN Group GIS',
 			'Service Management.MTN Group Super Users',
-			'Cybersecurity Monitoring.MTN Group GIS'
+			'Cybersecurity Monitoring.MTN Group GIS',
+			'Change Assessors.MTN Group IS',
+			'CAB Approval.MTN Group',
+			'eCAB Approval.MTN Group'
 		]);
 
 	
@@ -192,7 +203,10 @@
 			'Service Management.MTN Group RAFM',
 			'Service Management.MTN Group Super Users',
 			'Fraud Management System.MTN Group RAFM',
-			'Revenue Assurance.MTN Group RAFM'
+			'Revenue Assurance.MTN Group RAFM',
+			'Change Assessors.MTN Group IS',
+			'CAB Approval.MTN Group',
+			'eCAB Approval.MTN Group'
 		]);
 
 	
@@ -201,11 +215,7 @@
 		'MTN Liberia',
 		// Members
 		[
-			'CAB Approval.MTN Liberia',
-			'Change Assessors.MTN Liberia',
-			'Change Implementation.MTN Liberia',
 			'Cybersecurity Monitoring.MTN Liberia',
-			'eCAB Approval.MTN Liberia',
 			'Enterprise Services.MTN Liberia',
 			'Intelligence Network.MTN Liberia',
 			'IP Network Connectivity.MTN Liberia',	
@@ -226,7 +236,11 @@
 			'SD.MTN Liberia Group',
 			'Service Management.MTN Liberia',
 			'SD.MTN Group',
-			'Service Management.MTN Group Super Users'
+			'Service Management.MTN Group Super Users',
+			'Change Implementation.MTN Liberia',
+			'Change Assessors.MTN Liberia',
+			'CAB Approval.MTN Liberia',
+			'eCAB Approval.MTN Liberia'
 		]);
 	
 
@@ -373,13 +387,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-03 10:30:37</sys_created_on>
         <sys_id>47a33a6f1bc59810a89720a8ec4bcb1d</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>MTN_CreateDataSilos</sys_name>
         <sys_package display_value="DataSilosMTN" source="x_snc_datasilosmtn">6e33362f1bc59810a89720a8ec4bcb79</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="DataSilosMTN">6e33362f1bc59810a89720a8ec4bcb79</sys_scope>
         <sys_update_name>sys_script_include_47a33a6f1bc59810a89720a8ec4bcb1d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-22 10:14:42</sys_updated_on>
+        <sys_updated_on>2020-06-23 18:30:00</sys_updated_on>
     </sys_script_include>
 </record_update>
