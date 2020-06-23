@@ -99,8 +99,8 @@
 			'Service Management.MTN Group Boost',
 			'Service Management.MTN Group Super Users',
 			'Change Assessors.MTN Group Boost',
-			'CAB Approval.MTN Group Boost',
-			'eCAB Approval.MTN Group Boost'
+			'CAB Approval.MTN Group',
+			'eCAB Approval.MTN Group'
 		]);
 
 	
@@ -113,7 +113,6 @@
 			'Application Hosting Services.MTN Group GTES',
 			'Azure Cloud.MTN Group GTES',
 			'Certificate Services.MTN Group GTES',
-			'Change Managers.MTN Group GTES',
 			'Cloud IVR.MTN Group GTES',	
 			'Cloud Market Place.MTN Group GTES',
 			'Enterprise Tools.MTN Group GTES',
@@ -132,6 +131,7 @@
 			'Service Managers.MTN Group GTES',
 			'SD.MTN Group',
 			'Service Management.MTN Group Super Users',
+			'Change Managers.MTN Group GTES',
 			'Change Assessors.MTN Group GTES',
 			'CAB Approval. MTN Group GTES',
 			'eCAB Approval.MTN Group GTES'			
@@ -184,7 +184,6 @@
 		'MTN Group RAFM',
 		// Members
 		[
-			'Line managers. MTN Group RAFM',
 			'Dashboard Viewers.MTN Group RAFM',
 			'RAFM. MTN  Yemen',
 			'RAFM. MTN Benin',
@@ -199,6 +198,7 @@
 		[],
 		// Supervisors
 		[
+			'Line managers. MTN Group RAFM',
 			'SD.MTN Group',
 			'Service Management.MTN Group RAFM',
 			'Service Management.MTN Group Super Users',
@@ -259,7 +259,10 @@
 		[
 			'SD.MTN Group',
 			'Service Management.MTN Group Super Users',
-			'SLA.MTN GlobalConnect'
+			'SLA.MTN GlobalConnect',
+			'CAB.MTN GlobalConnect',
+			'eCAB.MTN GlobalConnect'
+
 		]);
 
 	data.CreateSilo(
@@ -387,13 +390,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-03 10:30:37</sys_created_on>
         <sys_id>47a33a6f1bc59810a89720a8ec4bcb1d</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>MTN_CreateDataSilos</sys_name>
         <sys_package display_value="DataSilosMTN" source="x_snc_datasilosmtn">6e33362f1bc59810a89720a8ec4bcb79</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="DataSilosMTN">6e33362f1bc59810a89720a8ec4bcb79</sys_scope>
         <sys_update_name>sys_script_include_47a33a6f1bc59810a89720a8ec4bcb1d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-23 18:38:57</sys_updated_on>
+        <sys_updated_on>2020-06-23 19:41:23</sys_updated_on>
     </sys_script_include>
 </record_update>
